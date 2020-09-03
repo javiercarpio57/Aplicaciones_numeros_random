@@ -9,11 +9,9 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-#Puntos donde empieza el fractal
-p1, p2, p3 = 0.20, 0.30, 0.50
 #Numero de iteraciones
 it = 100000
-x, y = [],[]
+y = []
 
 #Puntos random generados
 y = np.random.rand(it)
